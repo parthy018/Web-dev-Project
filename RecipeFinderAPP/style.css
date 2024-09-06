@@ -27,6 +27,11 @@ header nav h1{
     font-weight: 700;
     letter-spacing: 1px;
     text-transform: uppercase;
+    border-radius: 31px;
+    background: #B85042;
+    box-shadow:  35px 35px 70px #81382e,
+                 -35px -35px 70px #ef6856;
+                 padding: 10px 20px;
 }
 
 header nav form{
@@ -50,10 +55,14 @@ form input[type="text"],button[type="submit"]{
 }
 
  form button[type="submit"]{
-    background-color: #f44336;
+    /* background-color: #f44336; */
     color: white;
     cursor: pointer;
     transition: background-color 0.2s ease-in-out;
+    border-radius: 0px;
+    background: #F44336;
+    box-shadow:  35px 35px 70px #ab2f26,
+                 -35px -35px 70px #ff5746;
  }
 
  form button[type="submit"]:hover{

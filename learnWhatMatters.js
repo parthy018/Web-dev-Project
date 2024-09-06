@@ -158,3 +158,24 @@
    // .catch(function(){
    //    console.log("above 5");
    // })
+
+
+
+//    function    function with varible parameters
+
+function calculateCardPrice(...numbers){
+     return numbers
+}
+
+console.log(calculateCardPrice(200,400,600));
+
+      const user={
+            username:"parth",
+            ag:24
+      }
+
+      function handleObject(anyObject){
+            console.log(`object username is ${anyObject?.username} and age is ${anyObject.age}`);
+      }
+
+      handleObject(user);
